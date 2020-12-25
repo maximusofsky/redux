@@ -7,6 +7,7 @@
 
 const randomString = () =>
   Math.random().toString(36).substring(7).split('').join('.')
+  // This is just for github management.
 
 const ActionTypes = {
   INIT: `@@redux/INIT${/* #__PURE__ */ randomString()}`,
